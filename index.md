@@ -9,9 +9,15 @@ layout: home
 
 **Held in partnership with Prevent Child Abuse Hendricks Co., Just Be Kind Club, & Hendricks Co. 4-H fairground & Conference center.**
 
-# Drop off locations are
+# Drop off locations
+
+
+
+
 
 **Plainfield**
+
+
 **Firefly - Children and Family Alliance - 1925 Crown Plaza Blvd.** 
 **Family Promise of Hendricks County - 238 N Vine St**
 **Plainfield Government Center - 206 W Main St.**
@@ -22,5 +28,7 @@ layout: home
 **St. Susanna Catholic Church**
 
 **Danville**
+
+
 **Purdue University Extension Office - 1900 E Main St.**
 **Mary Queen of Peace Catholic Church - 1005 W Main St.**
