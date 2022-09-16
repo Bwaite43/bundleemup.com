@@ -1,9 +1,9 @@
 ---
 layout: home
 ---
-# About Theme
+# Bundle ‘Em Up Coat Giveaway!
 
-Bundle ‘Em Up Coat Giveaway!
+
 Hendricks County
 
 We are in urgent need of new or gently used winter coats!  We are collecting from Sep 15th – Oct 15th
