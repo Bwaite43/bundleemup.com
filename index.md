@@ -13,9 +13,7 @@ layout: home
 
 <img src="{{ site.url }}/images/beu.png" alt="">
 
-```
-Drop off Locations
-```
+[Drop off Locations](https://bwaite43.github.io/bundleemup.com//dropoff-locations/)
 
 ````
 Plainfield
