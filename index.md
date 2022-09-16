@@ -11,6 +11,7 @@ layout: home
 
 **Held in partnership with Prevent Child Abuse Hendricks Co., Just Be Kind Club, & Hendricks Co. 4-H fairground & Conference center.**
 
+<img src="{{ site.url }}/images/beu.png" alt="">
 
 ```
 Drop off Locations
@@ -29,7 +30,8 @@ Family Promise of Hendricks County
 Plainfield Government Center 
 206 W Main St.
 
-Richard A. Carlucci Recreation and Aquatic Center
+Richard A. Carlucci Recreation 
+and Aquatic Center
 651 Vestal Rd.
 
 Plainfield United Methodist Church 
