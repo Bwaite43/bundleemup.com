@@ -14,7 +14,4 @@ layout: home
 <img src="{{ site.url }}/images/beu.png" alt="">
 
 
-
-<a href="https://bwaite43.github.io/bundleemup.com//dropoff-locations/" style="color: Green; text-decoration: underline;">Drop off Locations</a>
-
-[Success Button Text](https://bwaite43.github.io/bundleemup.com//dropoff-locations/){: .btn .btn_success}
+[Drop Off Locations](https://bwaite43.github.io/bundleemup.com//dropoff-locations/){: .btn .btn_success}
