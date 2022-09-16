@@ -13,6 +13,6 @@ layout: home
 
 <img src="{{ site.url }}/images/beu.png" alt="">
 
-[Drop off Locations](https://bwaite43.github.io/bundleemup.com//dropoff-locations/)
 
-<a href="https://bwaite43.github.io/bundleemup.com//dropoff-locations/" style="color: Green; text-decoration: underline;text-decoration-style: dotted;">Drop off Locations</a>
+
+<a href="https://bwaite43.github.io/bundleemup.com//dropoff-locations/" style="color: Green; text-decoration: underline;">Drop off Locations</a>
