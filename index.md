@@ -20,7 +20,7 @@ layout: home
 
 
 
-
+````
 **Plainfield**
 
 
@@ -32,13 +32,14 @@ layout: home
 **Plainfield Public Library**
 **Plainfield Friends**
 **St. Susanna Catholic Church**
+````
 
 
 
-
-
+````
 **Danville**
 
 
 **Purdue University Extension Office - 1900 E Main St.**
 **Mary Queen of Peace Catholic Church - 1005 W Main St.**
+````
