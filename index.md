@@ -1,7 +1,7 @@
 ---
 layout: home
 ---
-# List of locations and INFO
+# INFO
 
 **We are in urgent need of new or gently used winter coats!  We are collecting from Sep 15th – Oct 15th**
 
@@ -9,7 +9,13 @@ layout: home
 
 **Held in partnership with Prevent Child Abuse Hendricks Co., Just Be Kind Club, & Hendricks Co. 4-H fairground & Conference center.**
 
+
+
 # Drop off locations
+
+
+
+
 
 
 
@@ -26,6 +32,10 @@ layout: home
 **Plainfield Public Library**
 **Plainfield Friends**
 **St. Susanna Catholic Church**
+
+
+
+
 
 **Danville**
 
