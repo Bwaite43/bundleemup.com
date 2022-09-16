@@ -1,7 +1,9 @@
 ---
 layout: home
 ---
-# INFO and Drop off locations
+# BUNDLE ‘EM UP
+
+**Info and Locations**
 
 **We are in urgent need of new or gently used winter coats!  We are collecting from Sep 15th – Oct 15th**
 
@@ -14,25 +16,40 @@ layout: home
 
 
 
+````
+Plainfield
 
-**Plainfield**
 
-Firefly - Children and Family Alliance - 1925 Crown Plaza Blvd.
-Family Promise of Hendricks County - 238 N Vine St
-Plainfield Government Center - 206 W Main St.
-Richard A. Carlucci Recreation and Aquatic Center - 651 Vestal Rd.
-Plainfield United Methodist Church - 600 E Simmons St.
+Firefly - Children and Family Alliance - 
+1925 Crown Plaza Blvd.
+
+Family Promise of Hendricks County - 
+238 N Vine St
+
+Plainfield Government Center - 
+206 W Main St.
+
+Richard A. Carlucci Recreation and Aquatic Center -
+651 Vestal Rd.
+
+Plainfield United Methodist Church - 
+600 E Simmons St.
+
 Plainfield Public Library
-Plainfield Friends
-St. Susanna Catholic Church
-{: .notice}
 
+Plainfield Friends
+
+St. Susanna Catholic Church
+````
 
 
 ````
 Danville
 
 
-Purdue University Extension Office - 1900 E Main St.
-Mary Queen of Peace Catholic Church - 1005 W Main St.
+Purdue University Extension Office - 
+1900 E Main St.
+
+Mary Queen of Peace Catholic Church - 
+1005 W Main St.
 ````
