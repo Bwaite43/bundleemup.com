@@ -29,10 +29,13 @@ Plainfield United Methodist Church
 600 E Simmons St.
 
 Plainfield Public Library
+1120 Stafford Rd.
 
 Plainfield Friends
+105 S. East St.
 
 St. Susanna Catholic Church
+1210 E Main St.
 ````
 
 
@@ -45,4 +48,11 @@ Purdue University Extension Office
 
 Mary Queen of Peace Catholic Church 
 1005 W Main St.
+````
+
+````
+Clayton
+
+Hazelwood Christian Church 
+9947 S. County Road 0
 ````
