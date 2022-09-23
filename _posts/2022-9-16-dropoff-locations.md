@@ -50,9 +50,19 @@ Mary Queen of Peace Catholic Church
 1005 W Main St.
 ````
 
+
 ````
 Clayton
 
 Hazelwood Christian Church 
 9947 S. County Road 0
+````
+
+
+````
+Avon
+
+Hendricks Power Cooperative
+86 N County Rd 500 E, Avon, IN 46123
+
 ````
