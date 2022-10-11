@@ -36,6 +36,11 @@ Plainfield Friends
 
 St. Susanna Catholic Church
 1210 E Main St.
+
+First Baptist of Plainfield
+1012 Stafford Road
+
+
 ````
 
 
