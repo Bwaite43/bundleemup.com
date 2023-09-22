@@ -11,34 +11,32 @@ tags:
 ````
 Plainfield
 
+Center Community Church
+5938 Sugar Grove Rd.
 
-Firefly - Children and Family Alliance
+Firefly Children & Family Alliance
 1925 Crown Plaza Blvd.
 
-Family Promise of Hendricks County 
-238 N Vine St
+First Baptist Church
+1012 Stafford Rd.
 
-Plainfield Government Center 
-206 W Main St.
+Plainfield Christian Church
+800 Dan Jones Rd.
 
-Richard A. Carlucci Recreation 
+Plainfield Untied Methodist Church
+600 Simmons St.
+
+Richard A Carlucci Recreation 
 and Aquatic Center
 651 Vestal Rd.
-
-Plainfield United Methodist Church 
-600 E Simmons St.
-
-Plainfield Public Library
-1120 Stafford Rd.
-
-Plainfield Friends
-105 S. East St.
 
 St. Susanna Catholic Church
 1210 E Main St.
 
-First Baptist of Plainfield
-1012 Stafford Road
+Town of Plainfield Government Center 
+206 W. Main St.
+
+
 
 
 ````
@@ -47,27 +45,25 @@ First Baptist of Plainfield
 ````
 Danville
 
+Hendricks County Head Start 
+20 South CR 300 E
 
-Purdue University Extension Office 
+Hendricks Co. 4-H Fairgrounds 
+& Conference Center 
 1900 E Main St.
 
-Mary Queen of Peace Catholic Church 
-1005 W Main St.
 ````
 
 
 ````
 Clayton
 
-Hazelwood Christian Church 
-9947 S. County Road 0
+
 ````
 
 
 ````
 Avon
 
-Hendricks Power Cooperative
-86 N County Rd 500 E, Avon, IN 46123
 
 ````
