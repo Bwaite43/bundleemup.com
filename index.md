@@ -2,14 +2,35 @@
 layout: home
 ---
 # BUNDLE ‘EM UP
+# Winter Coat Drive Giveaway
 
+## Collection Period
+**September 29th - October 13th**
 
+## Winter Coat Drive Event
+**Date:** October 19th  
+**Time:** 10 AM - 2 PM  
+**Location:** Hendricks County Fairgrounds, Small Animal Barn
 
-**We are in urgent need of new or gently used winter coats!  We are collecting from Sep 15th – Oct 15th**
+Join us in our community-wide effort to keep everyone warm this winter! We're collecting gently used winter coats for two weeks, culminating in a free coat giveaway event.
 
-**The coat giveaway will be held for the community on Oct 22nd from 10a-2p @ HC fairgrounds Expo Hall**
+### How You Can Help
+- Donate a gently used coat
+- Spread the word about the drive and giveaway
+- Attend the giveaway if you're in need of a coat
 
-**Held in partnership with Prevent Child Abuse Hendricks Co., Just Be Kind Club, & Hendricks Co. 4-H fairground & Conference center.**
+## Our Partners
+This initiative is a collaborative effort brought to you by:
+
+- Plainfield Federation of Churches
+- Plainfield Optimist Club
+- Just Be Kind Club
+- Prevent Child Abuse Hendricks County
+- Hendricks County 4-H Fairground & Conference Center
+
+---
+
+Together, we can make a difference in our community. Let's ensure everyone stays warm this winter!
 
 <img src="{{ site.url }}/images/beu.png" alt="">
 
