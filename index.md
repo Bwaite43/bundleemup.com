@@ -2,12 +2,11 @@
 layout: home
 ---
 # BUNDLE ‘EM UP
-# Winter Coat Drive Giveaway
 
-## Collection Period
+# Collection Period
 **September 29th - October 13th**
 
-## Winter Coat Drive Event
+# Winter Coat Drive Event
 **Date:** October 19th  
 **Time:** 10 AM - 2 PM  
 **Location:** Hendricks County Fairgrounds, Small Animal Barn
