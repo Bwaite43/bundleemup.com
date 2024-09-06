@@ -2,10 +2,10 @@
 layout: home
 ---
 
+  [Drop Off Locations](https://bwaite43.github.io/bundleemup.com//dropoff-locations/){: .btn .btn_success}
+
 <div class="main-content">
   <h1>BUNDLE 'EM UP</h1>
-
-  [Drop Off Locations](https://bwaite43.github.io/bundleemup.com//dropoff-locations/){: .btn .btn_success}
 
   <h2>Collection Period</h2>
   <p><strong>September 29th - October 13th</strong></p>
