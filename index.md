@@ -7,7 +7,9 @@ layout: home
 <div class="main-content">
   <h1>BUNDLE 'EM UP</h1>
 
+
   <h2>Collection Period</h2>
+
   <p><strong>September 29th - October 13th</strong></p>
 
   <h2>Winter Coat Drive Event</h2>
