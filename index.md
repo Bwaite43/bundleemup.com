@@ -5,8 +5,8 @@ layout: home
   [Drop Off Locations](https://bwaite43.github.io/bundleemup.com//dropoff-locations/){: .btn .btn_success}
 
 <div class="main-content">
-  <h1>BUNDLE 'EM UP</h1>
-
+  <h1>Wear a costume and enjoy indoor trick or treating!</h1>
+  <p>Vist us at the HC Fairgrounds Small Animal Barn for the event!</strong></p>
 
   <h2>Collection Period</h2>
 
