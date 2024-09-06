@@ -9,6 +9,7 @@
 .block-right {
   float: right;
   overflow-y: auto;
+  max-height: 100vh;
 }
 
 .block-left,
@@ -46,16 +47,9 @@ canvas {
   z-index: 0;
 }
 
-
-
-.posts-link,
-
-
 .posts-link {
   right: 90px;
 }
-
-
 
 .overlay {
   position: fixed;
@@ -198,6 +192,7 @@ canvas {
 
 .about-info {
   text-align: left;
+  padding-bottom: 50px;
   h1,
   h2 {
     font-size: 35px;
@@ -491,7 +486,7 @@ canvas {
   }
 }
 
-// Media queries
+/* Media queries and new styles */
 @media screen and (max-height: 605px) {
   .post-title-section .section-title {
     font-size: 45px;
@@ -503,6 +498,7 @@ canvas {
   .block-right {
     float: none;
     width: 100%;
+    height: auto;
   }
   html {
     overflow: auto;
@@ -510,7 +506,9 @@ canvas {
   .block-right {
     overflow-y: inherit;
   }
-
+  .posts-list {
+    width: 100%;
+  }
   .share-buttons span {
     display: none;
   }
@@ -562,93 +560,35 @@ canvas {
   .section-title {
     font-size: 80px;
   }
-
   .content {
-    padding: 20px
+    padding: 20px;
+  }
+  .main-info,
+  .about-info {
+    padding: 20px;
+  }
+  h1, h2 {
+    font-size: 24px;
+  }
+  p {
+    font-size: 16px;
+    line-height: 1.6;
   }
 }
 
-// entry meta used in tags and categories page
-.entry-meta {
-  font-size: .75rem;
-  text-transform: uppercase;
-  padding-left: 0;
-  display: none; // hide header meta on small screens
-  @media screen and (min-width: $small) {
-    display: block;
-  }
-  a {
-    color: lighten($black, 45);
-  }
-  li {
-    list-style-type: none;
-    display: inline;
-  }
-  .tag,
-  .category {
-    display: inline-block;
-    background-color: darken($white, 3%);
-    border-radius: 2px;
-    text-decoration: none;
-    transition: all 0.3s ease-in-out;
-    margin: 2px 5px;
-    font-size: 0.7rem;
-    border: none !important;
-    span {
-      float: left;
-      padding: 2px 6px;
-    }
-    .count {
-      background-color: darken($white, 8%);
-    }
-    &:hover {
-      background-color: darken($white, 8%);
-    }
-  }
+/* Additional styles */
+img {
+  max-width: 100%;
+  height: auto;
 }
-.entry-title > a{
-  border: none !important;
+
+.main-content > * {
+  margin-bottom: 20px;
 }
-.pagination {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  width: 100%;
-  margin-top: 1em;
-  &_pager {
-    display: inline-block;
-    padding: 0.75em;
-    min-width: 5.5em;
-    font-size: 0.8em;
-    font-weight: 400;
-    background-color: darken($white, 5%);
-    color: darken($white, 35%) !important;
-    text-align: center;
-    white-space: nowrap;
-    vertical-align: middle;
-    cursor: pointer;
-    transition: all 0.2s linear;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-    &:first-child {
-      border-radius: 4px 0 0 4px;
-    }
-    &:last-child {
-      border-radius: 0 4px 4px 0;
-    }
-    &:hover {
-      background-color: $green;
-      color: $white !important;
-    }
-    &.disabled {
-      background-color: darken($white, 3%);
-      color:darken($white, 15%) !important;
-      &:hover {
-        background-color: darken($white, 3%);
-        color:darken($white, 15%) !important;
-      }
-    }
-  }
-}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #399f62;
+  color: #fff;
+  text-decoration: none;
