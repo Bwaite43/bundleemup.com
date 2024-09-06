@@ -6,8 +6,7 @@ layout: home
 
 <div class="main-content">
   <h1>Wear a costume and enjoy indoor trick or treating!</h1>
-  <p>Vist us at the HC Fairgrounds Small Animal Barn for the event!</strong></p>
-
+  <p><strong>Vist us at the HC Fairgrounds Small Animal Barn for the event!</strong>strong></p>
   <h2>Collection Period</h2>
 
   <p><strong>September 29th - October 13th</strong></p>
