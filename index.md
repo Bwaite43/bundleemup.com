@@ -18,6 +18,7 @@ layout: home
   <p>Join us in our community-wide effort to keep everyone warm this winter! We're collecting gently used winter coats for two weeks, culminating in a free coat giveaway event.</p>
 
   <h2>How You Can Help</h2>
+  
   <ul>
     <li>Donate a gently used coat</li>
     <li>Spread the word about the drive and giveaway</li>
@@ -25,7 +26,9 @@ layout: home
   </ul>
 
   <h2>Our Partners</h2>
+  
   <p>This initiative is a collaborative effort brought to you by:</p>
+  
   <ul>
     <li>Plainfield Federation of Churches</li>
     <li>Plainfield Optimist Club</li>
