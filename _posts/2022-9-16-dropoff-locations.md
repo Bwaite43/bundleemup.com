@@ -19,8 +19,15 @@ tags:
 **Plainfield Christian Church**  
   800 Dan Jones Rd.
 
-**Plainfield United Methodist Church**  
+**Plainfield United Methodist Church**
   600 Simmons St.
+
+**First Baptist Church**
+  1012 Stafford Rd.
+
+**Firefly Children & Family Alliance**
+  1925 Crown Plaza Blvd.
+
 
 
 ````
@@ -29,7 +36,8 @@ tags:
 ````
 Danville
 
-
+**Hendricks County Health Department**
+355 S Washington St., Ste G
 
 ````
 
@@ -44,5 +52,7 @@ Clayton
 ````
 Avon
 
+**Avon Christian Church**
+  7236 E County Rd 100 S
 
 ````
