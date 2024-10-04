@@ -9,6 +9,13 @@ tags:
 ---
 
 ````
+Plainfield
+
+**Town of Plainfield Government Center**
+206 W. Main St.
+
+**Richard A Carlucci Recreation and Aquatic Center**
+651 Vestal Road
 
 **Encore 55+ Boutique Apartments**  
   584 Stone Table Blvd.
@@ -45,6 +52,8 @@ Danville
 ````
 Clayton
 
+**Hazelwood Christian Church**
+9947 S County Road 0
 
 ````
 
