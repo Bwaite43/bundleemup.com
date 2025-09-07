@@ -1,11 +1,30 @@
 .block-right .content {
     padding: 0;
+    height: 100vh;
+    overflow: hidden;
 }
 
 .about-info {
     padding: 2rem;
     height: 100%;
     overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: thin;
+    scrollbar-color: rgba(155, 155, 155, 0.5) transparent;
+}
+
+.about-info::-webkit-scrollbar {
+    width: 8px;
+}
+
+.about-info::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.about-info::-webkit-scrollbar-thumb {
+    background-color: rgba(155, 155, 155, 0.5);
+    border-radius: 4px;
+    border: 2px solid transparent;
 }
 
 .about-info h1 {
@@ -121,13 +140,13 @@
 
 /* Split layout adjustments */
 .block-right {
-    overflow-y: scroll;
+    overflow: hidden;
 }
 
 .main-content {
     max-width: 800px;
     margin: 0 auto;
-    padding: 2rem;
+    padding: 0 2rem;
 }
 
 @media screen and (max-width: 1200px) {
