@@ -1,26 +1,23 @@
 .block-right {
-    width: 50%;
-    float: right;
-    height: 100vh;
-    position: relative;
+    overflow-y: auto;
 }
 
 .block-right .content {
-    height: 100%;
-    padding: 0;
+    padding: 2rem;
 }
 
 .about-info {
-    padding: 2rem;
-    height: 100%;
-    overflow-y: auto;
+    max-width: none;
+    width: 100%;
     -webkit-overflow-scrolling: touch;
     scrollbar-width: thin;
     scrollbar-color: rgba(155, 155, 155, 0.5) transparent;
-    position: absolute;
-    width: 100%;
-    right: 0;
-    top: 0;
+}
+
+/* Override theme's content max-width */
+.content {
+    max-width: none;
+    padding: 2rem;
 }
 
 .about-info::-webkit-scrollbar {
