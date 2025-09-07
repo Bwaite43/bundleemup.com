@@ -58,7 +58,28 @@
     }
 }
 
+/* Reset theme display properties for right block */
+.block-right,
+.block-right > div,
+.block-right .content {
+    display: block !important;
+}
+
+.block-right {
+    float: right;
+    width: 50%;
+    height: 100vh;
+    overflow-y: auto;
+}
+
+.block-right .content {
+    height: auto;
+    padding: 2rem;
+}
+
 .about-info {
+    height: auto;
+    min-height: 100%;
     max-width: none;
     width: 100%;
     -webkit-overflow-scrolling: touch;
