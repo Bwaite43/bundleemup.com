@@ -1,17 +1,23 @@
 /* Desktop styles */
 @media screen and (min-width: 769px) {
-    .block-right {
+    .block-left {
         position: fixed;
-        right: 0;
+        left: 0;
         top: 0;
         width: 50%;
         height: 100vh;
-        overflow-y: scroll;
+    }
+    
+    .block-right {
+        width: 50%;
+        margin-left: 50%;
+        height: auto;
+        min-height: 100vh;
     }
 
     .block-right .content {
         padding: 2rem;
-        min-height: 100%;
+        height: auto;
     }
 }
 
