@@ -1,9 +1,15 @@
 .block-right {
-    overflow-y: auto;
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 50%;
+    height: 100vh;
+    overflow-y: scroll;
 }
 
 .block-right .content {
     padding: 2rem;
+    min-height: 100%;
 }
 
 .about-info {
@@ -18,6 +24,13 @@
 .content {
     max-width: none;
     padding: 2rem;
+    height: auto;
+}
+
+/* Ensure the main content area is scrollable */
+.main-content {
+    height: auto;
+    min-height: 100%;
 }
 
 .about-info::-webkit-scrollbar {
@@ -72,7 +85,7 @@
     background-color: #fff3e0;
     padding: 1rem;
     border-radius: 8px;
-    text-align: center;
+    text-align: left;
     margin: 1rem 0;
 }
 
