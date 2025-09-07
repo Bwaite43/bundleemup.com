@@ -2,39 +2,53 @@
 layout: home
 ---
 
-  [Drop Off Locations](https://bwaite43.github.io/bundleemup.com//dropoff-locations/){: .btn .btn_success}
-
 <div class="main-content">
-  <h1>Wear a costume and enjoy indoor trick or treating!</h1>
-  <p><strong>Vist us at the HC Fairgrounds Small Animal Barn for the event!</strong></p>
-  <h2>Collection Period</h2>
+  <h1>Wear a costume and enjoy indoor trick or treating! 🎃</h1>
+  <p><strong>Visit us at the HC Fairgrounds Small Animal Barn for the event!</strong></p>
+  
+  <a href="https://bwaite43.github.io/bundleemup.com//dropoff-locations/" class="cta-button">View Drop Off Locations 📍</a>
 
-  <p><strong>September 29th - October 13th</strong></p>
+  <div class="collection-period">
+    <h2>Collection Period</h2>
+    <p><strong>September 29th - October 13th</strong></p>
+  </div>
 
-  <h2>Winter Coat Drive Event</h2>
-  <p><strong>Date:</strong> October 19th<br>
-  <strong>Time:</strong> 10 AM - 2 PM<br>
-  <strong>Location:</strong> Hendricks County Fairgrounds, Small Animal Barn</p>
+  <div class="event-meta">
+    <h2>Winter Coat Drive Event</h2>
+    <p><strong>📅 Date:</strong> October 19th</p>
+    <p><strong>⏰ Time:</strong> 10 AM - 2 PM</p>
+    <p><strong>📍 Location:</strong> Hendricks County Fairgrounds, Small Animal Barn</p>
+  </div>
 
   <p>Join us in our community-wide effort to keep everyone warm this winter! We're collecting gently used winter coats for two weeks, culminating in a free coat giveaway event.</p>
 
-<h2>How You Can Help</h2>
+  <h2>How You Can Help</h2>
+  <div class="help-options">
+    <div class="help-item">
+      <p><strong>📦 Donate a gently used coat</strong></p>
+    </div>
+    <div class="help-item">
+      <p><strong>📢 Spread the word about the drive</strong></p>
+    </div>
+    <div class="help-item">
+      <p><strong>🤝 Attend if you need a coat</strong></p>
+    </div>
+  </div>
 
-<p><strong>Donate a gently used coat</strong></p>
-<p><strong>Spread the word about the drive and giveaway</strong></p>
-<p><strong>Attend the giveaway if you're in need of a coat</strong></p>
+  <h2>Our Partners</h2>
+  <p>This initiative is a collaborative effort brought to you by:</p>
 
-<h2>Our Partners</h2>
+  <div class="partners-grid">
+    <div class="partner-item">Plainfield Federation of Churches</div>
+    <div class="partner-item">Plainfield Optimist Club</div>
+    <div class="partner-item">Just Be Kind Club</div>
+    <div class="partner-item">Prevent Child Abuse Hendricks County</div>
+    <div class="partner-item">Hendricks County 4-H Fairground & Conference Center</div>
+  </div>
 
-<p>This initiative is a collaborative effort brought to you by:</p>
+  <p class="closing-message">Together, we can make a difference in our community. Let's ensure everyone stays warm this winter! ❤️</p>
 
-<p><strong>Plainfield Federation of Churches</strong></p>
-<p><strong>Plainfield Optimist Club</strong></p>
-<p><strong>Just Be Kind Club</strong></p>
-<p><strong>Prevent Child Abuse Hendricks County</strong></p>
-<p><strong>Hendricks County 4-H Fairground & Conference Center</strong></p>
-
-<p>Together, we can make a difference in our community. Let's ensure everyone stays warm this winter!</p>
-
-  <img src="{{ site.baseurl }}/images/beu.png" alt="Bundle 'Em Up Cartoon Children">
+  <div class="mascot-image">
+    <img src="{{ site.baseurl }}/images/beu.png" alt="Bundle 'Em Up Cartoon Children">
+  </div>
 </div>
