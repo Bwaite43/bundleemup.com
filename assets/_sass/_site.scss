@@ -1,3 +1,5 @@
+@use "sass:color";
+
 .block-left {
   float: left;
   .content {
@@ -196,7 +198,7 @@ canvas {
   h1,
   h2 {
     font-size: 35px;
-    color: lighten($black, 27.8431);
+    color: color.scale($black, $lightness: 27.8431%);
     &:after {
       position: absolute;
       left: auto;
@@ -212,7 +214,7 @@ canvas {
     }
   }
   p {
-    color: darken($white, 40);
+    color: color.scale($white, $lightness: -40%);
     font-size: 16px;
     margin: 10px 0;
     padding-top: 0;
@@ -267,7 +269,7 @@ canvas {
   > li {
     margin-bottom: 23px;
     padding-bottom: 20px;
-    border-bottom: 1px solid darken($white, 8.2353);
+    border-bottom: 1px solid color.scale($white, $lightness: -8.2353%);
     list-style: none;
     &:last-child {
       border: none;
@@ -277,7 +279,7 @@ canvas {
       margin-bottom: 15px;
     }
     p {
-      color: darken($white, 40);
+      color: color.scale($white, $lightness: -40%);
     }
     .date {
       color: #399f62;
@@ -296,7 +298,7 @@ canvas {
     }
   }
   .tags li > a {
-    color: lighten($black, 28%);
+    color: color.scale($black, $lightness: 28%);
   }
 }
 
@@ -304,9 +306,9 @@ canvas {
   margin-top: 20px;
   > li {
     display: inline-block;
-    background: darken($white, 5%);
+    background: color.scale($white, $lightness: -5%);
     padding: 7px 10px;
-    color: lighten($black, 28%);
+    color: color.scale($black, $lightness: 28%);
     font-size: 11px;
     text-transform: uppercase;
     > a {
@@ -343,7 +345,7 @@ canvas {
     margin-bottom: 1.3em;
   }
   small {
-    color: darken($white, 40);
+    color: color.scale($white, $lightness: -40%);
     font-size: 16px;
     margin-bottom: 10px;
     display: block;
@@ -441,7 +443,7 @@ canvas {
 .date-highlight {
   text-align: center;
   margin: 50px 0;
-  color: darken($white, 40);
+  color: color.scale($white, $lightness: -40%);
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;

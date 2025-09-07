@@ -1,15 +1,57 @@
-$white: #FFFFFF;
-$black: #000000;
-$gray: #d4d4d4;
-$overlay-color: #2c2d33;
-$green: #72cc96;
+// Color Variables
+$white: #FFFFFF !default;
+$black: #000000 !default;
+$gray: #d4d4d4 !default;
+$overlay-color: #2c2d33 !default;
+$green: #72cc96 !default;
 
-$red: #ee5f5b;
-$blue: #19B5FE;
-$yellow: #f89406;
-$aqua: #7FDBFF;
+$red: #ee5f5b !default;
+$blue: #19B5FE !default;
+$yellow: #f89406 !default;
+$aqua: #7FDBFF !default;
 
-$base-font: "weblysleek_uilight", sans-serif;
-$code-font: "LiberationMonoRegular",monospace;
-// break point
-$small: 750px;
+// Typography Variables
+$base-font: "weblysleek_uilight", sans-serif !default;
+$code-font: "LiberationMonoRegular", monospace !default;
+
+// Breakpoint Variables
+$small: 750px !default;
+
+// Font Awesome Variables (updated for modern Sass)
+$fa-font-path: "../fonts" !default;
+$fa-font-size-base: 14px !default;
+$fa-line-height-base: 1 !default;
+$fa-css-prefix: fa !default;
+$fa-version: "4.7.0" !default;
+$fa-border-color: #eee !default;
+$fa-inverse: #fff !default;
+$fa-li-width: calc(30em / 14) !default;
+
+// Magnific Popup Variables
+$mfp-overlay-color: $black !default;
+$mfp-overlay-opacity: 0.8 !default;
+$mfp-shadow: 0 0 8px rgba(0, 0, 0, 0.6) !default;
+$mfp-popup-padding-left: 8px !default;
+$mfp-popup-padding-left-mobile: 6px !default;
+$mfp-z-index-base: 1040 !default;
+$mfp-include-arrows: true !default;
+$mfp-controls-opacity: 1 !default;
+$mfp-controls-color: $white !default;
+$mfp-controls-border-color: $white !default;
+$mfp-inner-close-icon-color: $white !default;
+$mfp-controls-text-color: $gray !default;
+$mfp-controls-text-color-hover: $white !default;
+$mfp-IE7support: true !default;
+$mfp-include-iframe-type: true !default;
+$mfp-iframe-padding-top: 40px !default;
+$mfp-iframe-background: $black !default;
+$mfp-iframe-max-width: 900px !default;
+$mfp-iframe-ratio: calc(9 / 16) !default;
+$mfp-include-image-type: true !default;
+$mfp-image-background: #444 !default;
+$mfp-image-padding-top: 40px !default;
+$mfp-image-padding-bottom: 40px !default;
+$mfp-include-mobile-layout-for-image: true !default;
+$mfp-caption-title-color: #F3F3F3 !default;
+$mfp-caption-subtitle-color: #BDBDBD !default;
+$mfp-use-visuallyhidden: false !default;
