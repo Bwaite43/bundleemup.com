@@ -1,3 +1,71 @@
+/* Fix the main scrolling issue */
+html {
+    overflow-x: hidden !important;
+    overflow-y: auto !important;
+}
+
+body {
+    overflow-x: hidden !important;
+    overflow-y: auto !important;
+}
+
+/* Fix right side scrolling on desktop */
+.block-right {
+    overflow-y: auto !important;
+    overflow-x: hidden !important;
+    max-height: 100vh !important;
+}
+
+/* Fix mobile layout completely */
+@media screen and (max-width: 960px) {
+    html, body {
+        overflow: auto !important;
+        height: auto !important;
+    }
+    
+    .block-left, .block-right {
+        width: 100% !important;
+        height: auto !important;
+        max-height: none !important;
+        float: none !important;
+        position: relative !important;
+        display: block !important;
+        overflow: visible !important;
+    }
+    
+    .block-left > div, .block-right > div {
+        display: block !important;
+        vertical-align: baseline !important;
+        height: auto !important;
+    }
+    
+    .content {
+        height: auto !important;
+        padding: 1rem !important;
+        width: 100% !important;
+        max-width: none !important;
+        margin: 0 !important;
+    }
+    
+    .about-info {
+        width: 100% !important;
+        max-width: none !important;
+        text-align: left !important;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+}
+
+/* Force all containers to behave */
+* {
+    box-sizing: border-box !important;
+}
+
+img {
+    max-width: 100% !important;
+    height: auto !important;
+}
+
 /* Fix for horizontal overflow issues */
 body, html {
     width: 100%;
