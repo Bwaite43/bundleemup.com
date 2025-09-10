@@ -298,7 +298,7 @@ img {
 }
 
 /* Additional fixes for mobile centering */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 960px) {
     /* Ensure no elements cause horizontal overflow */
     .container, .wrapper, .main-wrapper {
         width: 100% !important;
@@ -321,5 +321,12 @@ img {
         width: 100%;
         max-width: 100%;
         overflow-x: hidden;
+    }
+
+    /* Reset theme table display on mobile */
+    .block-left > div,
+    .block-right > div {
+        display: block !important;
+        vertical-align: baseline !important;
     }
 }
