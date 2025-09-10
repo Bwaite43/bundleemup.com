@@ -1,28 +1,66 @@
+/* Fix for horizontal overflow issues */
+body, html {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
 /* Desktop styles */
 @media screen and (min-width: 769px) {
+    .block-left {
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 50%;
+        height: 100vh;
+    }
+    
     .block-right {
         position: fixed;
         right: 0;
         top: 0;
         width: 50%;
         height: 100vh;
-        overflow-y: scroll;
+        overflow-y: auto; /* Changed from scroll to auto */
+        overflow-x: hidden;
     }
 
     .block-right .content {
         padding: 2rem;
         min-height: 100%;
+        height: auto;
     }
 }
 
 /* Mobile styles */
 @media screen and (max-width: 768px) {
+    /* Override any theme overflow restrictions */
+    html {
+        overflow: auto !important;
+        overflow-x: hidden !important;
+    }
+    
+    body {
+        overflow: auto !important;
+        overflow-x: hidden !important;
+    }
+    
     .block-left,
     .block-right {
-        width: 100%;
-        height: auto;
-        float: none;
-        position: relative;
+        width: 100% !important;
+        height: auto !important;
+        float: none !important;
+        position: relative !important;
+        max-height: none !important;
+        overflow: visible !important;
     }
 
     .block-left {
@@ -31,7 +69,8 @@
 
     .block-right {
         min-height: 100vh;
-        overflow-y: visible;
+        overflow-y: visible !important;
+        overflow-x: hidden !important;
     }
 
     .block-right .content {
@@ -40,6 +79,8 @@
 
     .content {
         padding: 1.5rem;
+        width: 100%;
+        max-width: 100%;
     }
 
     h1 {
@@ -58,6 +99,7 @@
     -webkit-overflow-scrolling: touch;
     scrollbar-width: thin;
     scrollbar-color: rgba(155, 155, 155, 0.5) transparent;
+    height: auto;
 }
 
 /* Override theme's content max-width */
@@ -65,12 +107,14 @@
     max-width: none;
     padding: 2rem;
     height: auto;
+    width: 100%;
 }
 
 /* Ensure the main content area is scrollable */
 .main-content {
     height: auto;
     min-height: 100%;
+    width: 100%;
 }
 
 .about-info::-webkit-scrollbar {
@@ -227,9 +271,10 @@
     font-style: italic;
 }
 
-/* Split layout adjustments */
+/* Split layout adjustments - FIXED */
 .block-right {
-    overflow: hidden;
+    overflow-y: auto; /* Changed from overflow: hidden */
+    overflow-x: hidden;
 }
 
 .main-content {
@@ -249,5 +294,32 @@
     .about-info {
         height: auto;
         min-height: 100%;
+    }
+}
+
+/* Additional fixes for mobile centering */
+@media screen and (max-width: 768px) {
+    /* Ensure no elements cause horizontal overflow */
+    .container, .wrapper, .main-wrapper {
+        width: 100% !important;
+        max-width: 100% !important;
+        overflow-x: hidden !important;
+    }
+    
+    /* Center content properly */
+    .content, .about-info {
+        margin: 0 auto;
+        text-align: left;
+        width: 100%;
+    }
+    
+    /* Fix any potential width issues */
+    .collection-period,
+    .event-meta,
+    .help-options,
+    .partners-grid {
+        width: 100%;
+        max-width: 100%;
+        overflow-x: hidden;
     }
 }

@@ -505,6 +505,7 @@ canvas {
   }
   .block-right {
     overflow-y: inherit;
+    max-height: none;
   }
   .posts-list {
     width: 100%;
