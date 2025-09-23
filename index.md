@@ -15,7 +15,7 @@ layout: home
 
   <div class="event-meta">
     <h2>Winter Coat Drive Event</h2>
-    <p><strong>📅 Date:</strong> October 19th</p>
+    <p><strong>📅 Date:</strong> October 18th</p>
     <p><strong>⏰ Time:</strong> 10 AM - 2 PM</p>
     <p><strong>📍 Location:</strong> Hendricks County Fairgrounds, Small Animal Barn</p>
   </div>
