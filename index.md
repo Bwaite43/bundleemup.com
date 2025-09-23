@@ -40,7 +40,6 @@ layout: home
 
   <div class="partners-grid">
     <div class="partner-item">Plainfield Federation of Churches</div>
-    <div class="partner-item">Plainfield Optimist Club</div>
     <div class="partner-item">Just Be Kind Club</div>
     <div class="partner-item">Prevent Child Abuse Hendricks County</div>
     <div class="partner-item">Hendricks County 4-H Fairground & Conference Center</div>
