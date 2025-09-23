@@ -10,7 +10,7 @@ layout: home
 
   <div class="collection-period">
     <h2>Collection Period</h2>
-    <p><strong>September 29th - October 13th</strong></p>
+    <p><strong>September 28th - October 12th</strong></p>
   </div>
 
   <div class="event-meta">
