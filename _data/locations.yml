@@ -1,0 +1,45 @@
+# Drop-off sites, grouped by town. Add, remove, or reorder freely.
+# Each site needs a name and an address. The town name is used for map links.
+
+- town: Plainfield
+  sites:
+    - name: Town of Plainfield Government Center
+      address: 206 W. Main St.
+    - name: Richard A. Carlucci Recreation and Aquatic Center
+      address: 651 Vestal Road
+    - name: St. Susanna Catholic Church
+      address: 1210 E Main St.
+    - name: Plainfield United Methodist Church
+      address: 600 Simmons St.
+    - name: First Baptist Church
+      address: 1012 Stafford Rd.
+    - name: Firefly Children & Family Alliance
+      address: 1925 Crown Plaza Blvd.
+    - name: St. Marks Episcopal Church
+      address: 710 E Buchanan St.
+
+- town: Danville
+  sites:
+    - name: Hendricks County Health Department
+      address: 355 S Washington St., Ste G
+    - name: Purdue Extension Office, Hendricks County Fairgrounds
+      address: 1900 E Main St.
+    - name: Head Start
+      address: 20 S County Road 300 E
+
+- town: Avon
+  sites:
+    - name: Avon Christian Church
+      address: 7236 E County Rd 100 S
+    - name: Hendricks Power
+      address: 86 N County Road 500 E.
+
+- town: Brownsburg
+  sites:
+    - name: Brownsburg Public Library
+      address: 450 S Jefferson St.
+
+- town: Clayton
+  sites:
+    - name: Hazelwood Christian Church
+      address: 9947 S County Road 0

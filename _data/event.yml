@@ -1,0 +1,21 @@
+# Edit this file to update dates, times, and the giveaway location.
+# The homepage and the drop-off page read from here.
+
+collection_deadline: "October 11"
+
+giveaway:
+  day: "Saturday, October 17"
+  short_date: "Sat, Oct 17"
+  time: "10 AM – 2 PM"
+  venue: "Pavilion C"
+  venue_detail: "Sheep/Goat Barn, Hendricks County Fairgrounds"
+  address: "1900 E Main St., Danville"
+  maps_query: "Hendricks County 4-H Fairgrounds, 1900 E Main St, Danville, IN"
+
+flyer: /images/giveaway-flyer.pdf
+
+partners:
+  - Plainfield Federation of Churches
+  - Just Be Kind Club
+  - Prevent Child Abuse Hendricks County
+  - Hendricks County 4-H Fairground & Conference Center
