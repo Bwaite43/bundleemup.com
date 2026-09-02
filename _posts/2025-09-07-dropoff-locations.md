@@ -18,9 +18,6 @@ Town of Plainfield Government Center
 Richard A Carlucci Recreation and Aquatic Center
   651 Vestal Road
 
-Plainfield Friends
-  105 S East St.
-
 St. Susanna Catholic Church
   1210 E Main St.
 
@@ -34,6 +31,9 @@ First Baptist Church
 Firefly Children & Family Alliance
   1925 Crown Plaza Blvd.
 
+St. Marks Episcopal Church
+  710 E Buchanan St.
+
 ````
 
 ````
@@ -45,6 +45,9 @@ Hendricks County Health Department
 Purdue Extension Office
 Hendricks County Fairgrounds
   1900 E Main St.
+
+Head Start
+  20 S County Road 300 E
 
 ````
 
@@ -69,5 +72,8 @@ Avon
 
 Avon Christian Church
   7236 E County Rd 100 S
+
+Hendricks Power
+  86 N County Road 500 E.
 
 ````

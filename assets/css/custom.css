@@ -278,3 +278,40 @@
         min-height: 100%;
     }
 }
+
+/* Homepage left panel: giveaway flyer */
+#homepage .block-left.flyer-panel {
+    background: #fff;
+    display: block;
+    padding: 0;
+    overflow: hidden;
+}
+
+#homepage .flyer-panel .flyer-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+}
+
+#homepage .flyer-panel .flyer-link img {
+    display: block;
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 100vh;
+    object-fit: contain;
+}
+
+@media screen and (max-width: 960px) {
+    #homepage .block-left.flyer-panel {
+        height: auto;
+    }
+
+    #homepage .flyer-panel .flyer-link img {
+        width: 100%;
+        max-height: none;
+    }
+}

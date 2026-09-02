@@ -3,24 +3,24 @@ layout: home
 ---
 
 <div class="main-content">
-  <h1>Wear a costume and enjoy indoor trick or treating! 🎃</h1>
-  <p><strong>Visit us at the HC Fairgrounds Small Animal Barn for the event!</strong></p>
+  <h1>Wear a costume and enjoy indoor trick or treating and refreshments! 🎃</h1>
+  <p><strong>Visit us at the HC Fairgrounds Pavilion C (Sheep/Goat Barn) for the event!</strong></p>
   
   <a href="https://bwaite43.github.io/bundleemup.com//dropoff-locations/" class="cta-button">View Drop Off Locations 📍</a>
 
   <div class="collection-period">
     <h2>Collection Period</h2>
-    <p><strong>September 28th - October 12th</strong></p>
+    <p><strong>Collecting up until October 11</strong></p>
   </div>
 
   <div class="event-meta">
     <h2>Winter Coat Drive Event</h2>
-    <p><strong>📅 Date:</strong> October 18th</p>
+    <p><strong>📅 Date:</strong> Saturday, October 17th</p>
     <p><strong>⏰ Time:</strong> 10 AM - 2 PM</p>
-    <p><strong>📍 Location:</strong> Hendricks County Fairgrounds, Small Animal Barn</p>
+    <p><strong>📍 Location:</strong> Pavilion C (Sheep/Goat Barn), Hendricks County Fairgrounds</p>
   </div>
 
-  <p>Join us in our community-wide effort to keep everyone warm this winter! We're collecting gently used winter coats for two weeks, culminating in a free coat giveaway event.</p>
+  <p>Join us in our community-wide effort to keep everyone warm this winter! We're collecting gently used winter coats up until October 11, culminating in a free coat giveaway event.</p>
 
   <h2>How You Can Help</h2>
   <div class="help-options">
