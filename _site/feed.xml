@@ -1,59 +1,64 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-09-07T18:01:49+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Bundle ‘Em Up Coat Giveaway!</title><subtitle>Hendricks County</subtitle><entry><title type="html">Drop Off Locations</title><link href="http://localhost:4000/dropoff-locations/" rel="alternate" type="text/html" title="Drop Off Locations" /><published>2025-09-07T00:00:00+00:00</published><updated>2025-09-07T00:00:00+00:00</updated><id>http://localhost:4000/dropoff-locations</id><content type="html" xml:base="http://localhost:4000/dropoff-locations/"><![CDATA[<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Plainfield
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://bundleuphendrickscounty.org//feed.xml" rel="self" type="application/atom+xml" /><link href="https://bundleuphendrickscounty.org//" rel="alternate" type="text/html" /><updated>2026-09-02T13:52:12+00:00</updated><id>https://bundleuphendrickscounty.org//feed.xml</id><title type="html">Bundle ‘Em Up Coat Giveaway!</title><subtitle>Hendricks County</subtitle><entry><title type="html">Drop Off Locations</title><link href="https://bundleuphendrickscounty.org//dropoff-locations/" rel="alternate" type="text/html" title="Drop Off Locations" /><published>2025-09-07T00:00:00+00:00</published><updated>2025-09-07T00:00:00+00:00</updated><id>https://bundleuphendrickscounty.org//dropoff-locations</id><content type="html" xml:base="https://bundleuphendrickscounty.org//dropoff-locations/"><![CDATA[<p>Drop coats off during each location’s regular hours, through October 11.</p>
 
-Town of Plainfield Government Center
-  206 W. Main St.
+<h3 id="plainfield">Plainfield</h3>
 
-Richard A Carlucci Recreation and Aquatic Center
-  651 Vestal Road
+<ul>
+  <li>
+    <p><strong>Town of Plainfield Government Center</strong><br />206 W. Main St.</p>
+  </li>
+  <li>
+    <p><strong>Richard A. Carlucci Recreation and Aquatic Center</strong><br />651 Vestal Road</p>
+  </li>
+  <li>
+    <p><strong>St. Susanna Catholic Church</strong><br />1210 E Main St.</p>
+  </li>
+  <li>
+    <p><strong>Plainfield United Methodist Church</strong><br />600 Simmons St.</p>
+  </li>
+  <li>
+    <p><strong>First Baptist Church</strong><br />1012 Stafford Rd.</p>
+  </li>
+  <li>
+    <p><strong>Firefly Children &amp; Family Alliance</strong><br />1925 Crown Plaza Blvd.</p>
+  </li>
+  <li>
+    <p><strong>St. Marks Episcopal Church</strong><br />710 E Buchanan St.</p>
+  </li>
+</ul>
 
-Plainfield Friends
-  105 S East St.
+<h3 id="danville">Danville</h3>
 
-St. Susanna Catholic Church
-  1210 E Main St.
+<ul>
+  <li>
+    <p><strong>Hendricks County Health Department</strong><br />355 S Washington St., Ste G</p>
+  </li>
+  <li>
+    <p><strong>Purdue Extension Office, Hendricks County Fairgrounds</strong><br />1900 E Main St.</p>
+  </li>
+  <li>
+    <p><strong>Head Start</strong><br />20 S County Road 300 E</p>
+  </li>
+</ul>
 
-Plainfield Christian Church 
-  800 Dan Jones Rd.
+<h3 id="avon">Avon</h3>
 
-Plainfield United Methodist Church
-  600 Simmons St.
+<ul>
+  <li>
+    <p><strong>Avon Christian Church</strong><br />7236 E County Rd 100 S</p>
+  </li>
+  <li>
+    <p><strong>Hendricks Power</strong><br />86 N County Road 500 E.</p>
+  </li>
+</ul>
 
-First Baptist Church
-  1012 Stafford Rd.
+<h3 id="brownsburg">Brownsburg</h3>
 
-Firefly Children &amp; Family Alliance
-  1925 Crown Plaza Blvd.
+<ul>
+  <li><strong>Brownsburg Public Library</strong><br />450 S Jefferson St.</li>
+</ul>
 
-</code></pre></div></div>
+<h3 id="clayton">Clayton</h3>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Danville
-
-Hendricks County Health Department
-  355 S Washington St., Ste G
-
-Purdue Extension Office
-Hendricks County Fairgrounds
-  1900 E Main St.
-
-</code></pre></div></div>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Brownsburg
-
-Brownsburg Public Library
-  450 S Jefferson St.
-
-</code></pre></div></div>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Clayton
-
-Hazelwood Christian Church
-  9947 S County Road 0
-
-</code></pre></div></div>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Avon
-
-Avon Christian Church
-  7236 E County Rd 100 S
-
-</code></pre></div></div>]]></content><author><name></name></author><category term="Locations" /><category term="Plainfield" /><category term="Danville" /><summary type="html"><![CDATA[```` Plainfield]]></summary></entry></feed>
+<ul>
+  <li><strong>Hazelwood Christian Church</strong><br />9947 S County Road 0</li>
+</ul>]]></content><author><name></name></author><category term="Locations" /><category term="Plainfield" /><category term="Danville" /><category term="Avon" /><category term="Brownsburg" /><category term="Clayton" /><summary type="html"><![CDATA[Drop coats off during each location’s regular hours, through October 11.]]></summary></entry></feed>
