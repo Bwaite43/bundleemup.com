@@ -7,73 +7,17 @@ categories:
 tags:
   - Plainfield
   - Danville
+  - Avon
+  - Brownsburg
+  - Clayton
 ---
 
-````
-Plainfield
+Drop coats off during each location's regular hours, through {{ site.data.event.collection_deadline }}.
 
-Town of Plainfield Government Center
-  206 W. Main St.
+{% for town in site.data.locations %}
+### {{ town.town }}
 
-Richard A Carlucci Recreation and Aquatic Center
-  651 Vestal Road
-
-St. Susanna Catholic Church
-  1210 E Main St.
-
-
-Plainfield United Methodist Church
-  600 Simmons St.
-
-First Baptist Church
-  1012 Stafford Rd.
-
-Firefly Children & Family Alliance
-  1925 Crown Plaza Blvd.
-
-St. Marks Episcopal Church
-  710 E Buchanan St.
-
-````
-
-````
-Danville
-
-Hendricks County Health Department
-  355 S Washington St., Ste G
-
-Purdue Extension Office
-Hendricks County Fairgrounds
-  1900 E Main St.
-
-Head Start
-  20 S County Road 300 E
-
-````
-
-````
-Brownsburg
-
-Brownsburg Public Library
-  450 S Jefferson St.
-
-````
-
-````
-Clayton
-
-Hazelwood Christian Church
-  9947 S County Road 0
-
-````
-
-````
-Avon
-
-Avon Christian Church
-  7236 E County Rd 100 S
-
-Hendricks Power
-  86 N County Road 500 E.
-
-````
+{% for s in town.sites %}
+- **{{ s.name }}**<br>{{ s.address }}
+{% endfor %}
+{% endfor %}
