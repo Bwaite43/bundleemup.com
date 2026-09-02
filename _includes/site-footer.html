@@ -1,0 +1,15 @@
+<footer id="partners" class="site-footer">
+  <div class="wrap">
+    <div class="eyebrow eyebrow--light">Brought to you by</div>
+    <ul class="partners">
+      {% for partner in site.data.event.partners %}
+      <li>{{ partner }}</li>
+      {% endfor %}
+    </ul>
+    <div class="site-footer__meta">
+      <span>{{ site.url | remove: "https://" | remove: "http://" | remove: "/" }}</span>
+      <a href="{{ site.baseurl }}/dropoff-locations/">Printable drop-off list</a>
+      <a href="{{ site.data.event.flyer | prepend: site.baseurl }}">Giveaway flyer (PDF)</a>
+    </div>
+  </div>
+</footer>
