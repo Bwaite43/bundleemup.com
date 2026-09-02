@@ -1,6 +1,6 @@
 ---
 layout: post-list
-title: Updates
-description: "News and details for this year's coat drive."
+title: Posts
+description: "List of posts"
 permalink: /posts.html
 ---
