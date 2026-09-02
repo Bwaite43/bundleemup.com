@@ -1,25 +1,24 @@
 ---
 layout: page
-title: Tag Archive
-description: "An archive of posts sorted by tag."
+title: Browse by town
+description: "Updates grouped by tag."
 permalink: /tags.html
 ---
 
 {% capture site_tags %}{% for tag in site.tags %}{{ tag | first }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
 {% assign tags_list = site_tags | split:',' | sort %}
 
-<ul class="entry-meta">
-  {% for item in (0..site.tags.size) %}{% unless forloop.last %}
-  {% capture this_word %}{{ tags_list[item] | strip_newlines }}{% endcapture %}
-  <li><a href="#{{ this_word }}" class="tag"><span class="term">{{ this_word }}</span> <span class="count">{{ site.tags[this_word].size }}</span></a></li>
-  {% endunless %}{% endfor %}
+<ul class="tag-list">
+  {% for this_word in tags_list %}
+  <li><a class="tag" href="#{{ this_word | slugify }}">{{ this_word }} ({{ site.tags[this_word].size }})</a></li>
+  {% endfor %}
 </ul>
-{% for item in (0..site.tags.size) %}{% unless forloop.last %}
-{% capture this_word %}{{ tags_list[item] | strip_newlines }}{% endcapture %}
-   <h2 id="{{ this_word }}" class="tag-heading">{{ this_word }}</h2>
-   <ul>
-    {% for post in site.tags[this_word] %}{% if post.title != null %}
-    <li class="entry-title"><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
-    {% endif %}{% endfor %}
-  </ul>
-{% endunless %}{% endfor %}
+
+{% for this_word in tags_list %}
+<h3 id="{{ this_word | slugify }}">{{ this_word }}</h3>
+<ul>
+  {% for post in site.tags[this_word] %}{% if post.title != null %}
+  <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+  {% endif %}{% endfor %}
+</ul>
+{% endfor %}

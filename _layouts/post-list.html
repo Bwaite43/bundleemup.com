@@ -3,47 +3,42 @@ layout: compress
 ---
 
 <!DOCTYPE html>
-<html>
-{% include head.html %}
-  <body id="posts">
+<html lang="en">
+{% include site-head.html %}
+<body class="inner">
+  {% include site-header.html %}
 
-    <div class="block-left">
-      <div class="content">
-        <a href="{{ site.url }}" class="logo"><img src="{{ site.url }}/images/{{ site.logo | replace: '.', '-small.' }}"></a>
-        <h1 class="section-title">{{ page.title}}<em>/</em>
-        </h1>
+  <main id="main">
+    <div class="page-head">
+      <div class="wrap page-head__inner">
+        <h1>{{ page.title }}</h1>
+        {% if page.description %}<p class="page-head__lede">{{ page.description }}</p>{% endif %}
       </div>
     </div>
 
-    <div class="block-right">
-      <a href="posts.html" title="posts" class="posts-menu-icon"></a>
-
-        <span></span>
-      </a>
-      <div class="content">
-        <ul class="posts-list">
+    <div class="wrap article">
+      <ul class="post-list">
         {% for post in site.posts %}
-          <li>
-            <h2>
-              <a href="{{ site.url }}{{ post.url }}" class="post-title">
-                <span>{{ post.title | markdownify | remove: "<p>" | remove: "</p>" }}</span>
-              </a>
-              <span class="date">{{ post.date | date: '%d %b %Y' }}</span>
-            </h2>
-            <p>{{ post.excerpt | strip_html | truncatewords:10 }}</p>
-            <ul class="tags">
+        <li class="post-card">
+          <div class="page-head__meta">
+            <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: '%B %-d, %Y' }}</time>
+          </div>
+          <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title | markdownify | remove: "<p>" | remove: "</p>" }}</a></h2>
+          {% assign excerpt = post.excerpt | strip_html | strip_newlines | truncatewords: 24 %}
+          {% if excerpt != "" %}<p>{{ excerpt }}</p>{% endif %}
+          {% if post.tags.size > 0 %}
+          <ul class="tag-list">
             {% for tag in post.tags %}
-              <li><a href="{{ site.url }}/tags#{{ tag }}">{{ tag }}</a></li>
-              {% unless forloop.last %}
-              {% endunless %}
+            <li><a class="tag" href="{{ site.baseurl }}/tags.html#{{ tag | slugify }}">{{ tag }}</a></li>
             {% endfor %}
-            </ul>
-          </li>
-          {% endfor %}
-        </ul>
-      </div>
+          </ul>
+          {% endif %}
+        </li>
+        {% endfor %}
+      </ul>
     </div>
-    {% include overlay.html %}
-    {% include scripts.html %}
-  </body>
+  </main>
+
+  {% include site-footer.html %}
+</body>
 </html>
